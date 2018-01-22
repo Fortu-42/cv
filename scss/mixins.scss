@@ -1,0 +1,28 @@
+// Mixins
+// Bootstrap Button Variant
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:700');
+
+@mixin background-cover {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+@mixin body-font {
+  
+
+  font-family: 'Muli', sans-serif;
+
+
+}
+@mixin heading-font {
+  
+
+
+
+    font-family: 'Open Sans', sans-serif;
+
+
+
+
+}

@@ -1,0 +1,71 @@
+/*!
+ * Start Bootstrap - Bare v4.0.0-beta.3 (https://startbootstrap.com/template-overviews/bare)
+ * Copyright 2013-2018 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-bare/blob/master/LICENSE)
+ */
+body {
+  padding-top: 50px;
+  background-color: #f4f9f4;
+  display: grid;
+  grid-template-columns: repeat(2, 700px);
+  justify-content: center;
+  grid-gap: 10px;
+  overflow-x: hidden; }
+
+.photo {
+  border: 1px #adb5bd solid;
+  border-radius: 20px; }
+
+.bio {
+  font-size: 18px; }
+
+hr {
+  border: 2px solid rgba(10, 10, 10, 0.4);
+  width: 250px; }
+
+.item-head {
+  grid-column: 1/3; }
+
+.piheading {
+  font-size: 22px; }
+
+.contact {
+  grid-column: 1/3;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: rgba(10, 10, 10, 0.4);
+  border-radius: 5px;
+  font-size: 25px;
+  line-height: 45px;
+  color: white; }
+  .contact .co {
+    padding: 7px 0; }
+  .contact h5.reds {
+    font-size: 22px;
+    font-weight: bold; }
+
+.item-head {
+  padding-top: 15px; }
+
+.hab {
+  font-size: 25px;
+  font-weight: 400;
+  vertical-align: super;
+  line-height: 45px; }
+
+p {
+  padding-bottom: 0; }
+
+.fa-2x {
+  padding-top: 3px; }
+
+.tools {
+  grid-column: 1/3;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr); }
+
+.progress-bar {
+  background-color: rgba(10, 10, 10, 0.4); }
+
+.list-group {
+  margin-bottom: 55px; }
