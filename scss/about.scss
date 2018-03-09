@@ -2,16 +2,32 @@ body{
     padding-top: 50px;
     background-color:$light-white;
     display: grid;
-    grid-template-columns:  repeat(2,700px);
+    grid-template-columns:  repeat(2,600px);
     justify-content: center;
     grid-gap: 10px;
     overflow-x: hidden;
 }
 
-.photo{
-    border: 1px $gray-500 solid;
-    border-radius: 20px;
+.headit{
+    grid-column: 1/3;
+    display: grid;
+    grid-template-columns: repeat(3,333px);
+    justify-content: center;
+    align-items: center;
+    grid-gap: 10px;
+    
+
+    .img-profile{
+        grid-column: 1/2;
+        width: 200px;
+        justify-self: end;
+    }
+    
+    .about-me{
+        grid-column: 2/4;
+    }
 }
+
 
 
 .bio{
@@ -58,7 +74,7 @@ hr{
 }
 
 .hab{
-    font-size: 25px;
+    font-size: 17px;
     font-weight: 400;
     vertical-align: super;
     line-height: 45px;
