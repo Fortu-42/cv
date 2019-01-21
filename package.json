@@ -27,11 +27,12 @@
     },
     "dependencies": {
         "bootstrap": "^4.0.0-beta.3",
+        "gulp-autoprefixer": "^6.0.0",
         "jquery": "^3.2.1"
     },
     "devDependencies": {
-        "browser-sync": "2.18.13",
-        "gulp": "^3.9.1",
+        "browser-sync": "^2.26.3",
+        "gulp": "^4.0.0",
         "gulp-clean-css": "3.9.0",
         "gulp-header": "1.8.9",
         "gulp-rename": "^1.2.2",
